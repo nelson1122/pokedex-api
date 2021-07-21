@@ -9,13 +9,13 @@ Framework: **Java SpringBoot 2.5.2**
 
 IDE: **IntelliJ IDEA Community Edition 2021.1.2**
 
-Available REST services
+Available REST services. [Download Postman Project](src/main/resources/pokeapi.postman_collection.json)
 
 * **1 - List pokemon info by page size and page number (GET Request)**
   
   Request example:
   ~~~
-  https://nelson1122-pokedex-api.herokuapp.com/pokemon/info?pageSize=2&pageNumber=1
+  [https://nelson1122-pokedex-api.herokuapp.com/pokemon/info?pageSize=2&pageNumber=1]()
   ~~~
   Response example:
     ```

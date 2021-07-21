@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "06959d89-83cc-49ca-984c-f5721eddca6b",
+		"name": "pokeapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. List pokemon info by pageSize and pageNumber",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nelson1122-pokedex-api.herokuapp.com/pokemon/info?pageSize=2&pageNumber=1",
+					"protocol": "https",
+					"host": [
+						"nelson1122-pokedex-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"pokemon",
+						"info"
+					],
+					"query": [
+						{
+							"key": "pageSize",
+							"value": "2"
+						},
+						{
+							"key": "pageNumber",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Find pokemon info by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nelson1122-pokedex-api.herokuapp.com/pokemon/info/143",
+					"protocol": "https",
+					"host": [
+						"nelson1122-pokedex-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"pokemon",
+						"info",
+						"143"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
