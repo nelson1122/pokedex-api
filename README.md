@@ -3,9 +3,9 @@
 ![PokeApi](src/main/resources/pokeapi.png?raw=true "PokeApi")
 
 
-Challenge developed by **Nelson Quemá, Eng.** for the Modyo Company
+Challenge developed by **Nelson Quemá, Eng.** for **The Modyo Company**
 
-Framework: Java SpringBoot 2.5.2
+Framework: **Java SpringBoot 2.5.2**
 
 Available REST services
 
