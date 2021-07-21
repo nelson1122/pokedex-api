@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import static com.modyo.pokedex.util.Constants.ERROR_MESSAGE_INFO;
 import static com.modyo.pokedex.util.Constants.ERROR_MESSAGE_INFO_ALL;
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 import static org.springframework.http.HttpStatus.OK;
@@ -57,7 +58,7 @@ public class PokeDexController {
         } catch (Exception ex) {
             LOGGER.error(ERROR_MESSAGE_INFO_ALL, ex);
             return new ResponseEntity<>(
-                    ERROR_MESSAGE_INFO_ALL,
+                    ERROR_MESSAGE_INFO,
                     INTERNAL_SERVER_ERROR
             );
         }
