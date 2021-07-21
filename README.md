@@ -15,7 +15,7 @@ Available REST services. [Download Postman Project](src/main/resources/pokeapi.p
   
   Request example:
   ~~~
-  [https://nelson1122-pokedex-api.herokuapp.com/pokemon/info?pageSize=2&pageNumber=1]()
+  https://nelson1122-pokedex-api.herokuapp.com/pokemon/info?pageSize=2&pageNumber=1
   ~~~
   Response example:
     ```
