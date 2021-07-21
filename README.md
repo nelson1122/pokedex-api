@@ -7,6 +7,8 @@ Challenge developed by **Nelson Quemá, Eng.** for **The Modyo Company**
 
 Framework: **Java SpringBoot 2.5.2**
 
+IDE: **IntelliJ IDEA Community Edition 2021.1.2**
+
 Available REST services
 
 * **1 - List pokemon info by page size and page number (GET Request)**
@@ -55,7 +57,7 @@ Available REST services
   
   Request Example:
   ~~~
-  https://nelson1122-pokedex-api.herokuapp.com/pokemon/info/3
+  https://nelson1122-pokedex-api.herokuapp.com/pokemon/info/143
   ~~~
 
   Response Example:
