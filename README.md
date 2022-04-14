@@ -3,8 +3,7 @@
 ![PokeApi](src/main/resources/pokeapi.png?raw=true "PokeApi")
 
 
-Challenge developed by **Nelson Quemá, Eng.** for **The Modyo Company**
-
+Developed by **Nelson Quemá, Eng.**
 Framework: **Java SpringBoot 2.5.2**
 
 IDE: **IntelliJ IDEA Community Edition 2021.1.2**
